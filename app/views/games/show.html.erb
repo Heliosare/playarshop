@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong> Image path</strong>
+  <%=@game.image.inspect %>
+</p>
+
+<p>
+   <%= image_tag @game.image.url(:medium) %>
+</p>
+
+<p>
+  <strong>Nam:</strong>
+  <%= @game.nam %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @game.description %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @game.year %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path(:id=>@user.id) %>
+

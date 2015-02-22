@@ -1,0 +1,2148 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:14:38 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+Warning. Error encountered while saving cache c37b332d0545949d7e1ae8e24fcf4bcab8af5719/custom.css.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache e8b8462cf96df110eed731450c19de07827ed2c5/bootstrap.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/bootstrap.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_variables.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_mixins.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_reset.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_grid.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_layouts.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_type.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_code.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_forms.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_tables.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_sprites.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_wells.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_component-animations.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_close.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_buttons.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_button-groups.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_alerts.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_navs.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_navbar.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_pagination.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_pager.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_modals.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_tooltip.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_popovers.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_media.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_labels-badges.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_accordion.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_carousel.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_hero-unit.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+Warning. Error encountered while saving cache 37e70771a13645d35ec1bc38928e45876829733c/_utilities.scssc: can't dump anonymous class #<Class:0x007f762cb373c0>
+
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1580ms (Views: 1561.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.4ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2015-02-22 15:14:40 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-02-22 15:14:53 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (167.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 193ms (Views: 188.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gOGuD8c/0/JIVbP3VUpOH8bRKCS14hYDgj/NFS0sfSs=", "user"=>{"name"=>"qwerty", "email"=>"vincent.galoger@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('vincent.galoger@gmail.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 24.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.6ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:02 +0100
+
+
+Started GET "/signin" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:07 +0100
+
+
+Started POST "/sessions" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gOGuD8c/0/JIVbP3VUpOH8bRKCS14hYDgj/NFS0sfSs=", "session"=>{"email"=>"vincent.galoger@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'vincent.galoger@gmail.com' LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 89ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:08 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:11 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-02-22 15:15:12 +0100
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gOGuD8c/0/JIVbP3VUpOH8bRKCS14hYDgj/NFS0sfSs=", "user"=>{"name"=>"qwerty", "email"=>"qwerty@qwerty", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('qwerty@qwerty') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '0e48b6266a96e54f2ca6f822019070dc44ad1078' LIMIT 1
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 19.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:30 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gOGuD8c/0/JIVbP3VUpOH8bRKCS14hYDgj/NFS0sfSs=", "user"=>{"name"=>"qwerty", "email"=>"qwerty@qwerty.fr", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('qwerty@qwerty.fr') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (3.1ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "remember_token", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sun, 22 Feb 2015 14:15:42 UTC +00:00], ["email", "qwerty@qwerty.fr"], ["name", "qwerty"], ["password_digest", "$2a$10$qKZaOXlZIzpd4n/eF.1x1Ot9iWsgXu0H/CT259pOYY0LmXehdnkS2"], ["remember_token", "39516dbd88e86311727d0feb45579288f467956e"], ["updated_at", Sun, 22 Feb 2015 14:15:42 UTC +00:00]]
+  [1m[35m (13.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = 6  [["remember_token", "406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e"], ["updated_at", Sun, 22 Feb 2015 14:15:42 UTC +00:00]]
+  [1m[36m (15.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 115ms (ActiveRecord: 33.3ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (11.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  Rendered users/_follow_form.html.erb (0.4ms)
+  [1m[35mMicropost Exists (0.1ms)[0m  SELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? ORDER BY created_at DESC LIMIT 1  [["user_id", 6]]
+  Rendered users/show.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:42 +0100
+
+
+Started GET "/games?id=6" for 127.0.0.1 at 2015-02-22 15:15:45 +0100
+Processing by GamesController#index as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mGame Load (0.2ms)[0m  SELECT "games".* FROM "games" WHERE "games"."user_id" = 6
+  Rendered games/index.html.erb within layouts/application (16.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 49ms (Views: 39.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:15:45 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.5ms)
+
+
+Started GET "/games/new?id=6" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+Processing by GamesController#new as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  Rendered games/_form.html.erb (40.7ms)
+  Rendered games/new.html.erb within layouts/application (42.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/javascripts/defaults.js" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (32.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/javascripts/jquery-1.4.2.min.js" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery-1.4.2.min.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:15:47 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:15:53 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.9ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (2.6ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (3.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)
+  Rendered shared/_feed.html.erb (1.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 28.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-02-22 15:15:59 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (2.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  Rendered users/_follow_form.html.erb (0.5ms)
+  [1m[36mMicropost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? ORDER BY created_at DESC LIMIT 1[0m  [["user_id", 6]]
+  Rendered users/show.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/6/followers" for 127.0.0.1 at 2015-02-22 15:16:05 +0100
+Processing by UsersController#followers as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (5.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered users/show_follow.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/6/following" for 127.0.0.1 at 2015-02-22 15:16:07 +0100
+Processing by UsersController#following as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (1.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  Rendered users/show_follow.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/6/followers" for 127.0.0.1 at 2015-02-22 15:16:08 +0100
+Processing by UsersController#followers as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (3.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered users/show_follow.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:16:09 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (3.3ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (3.2ms)
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered shared/_micropost_form.html.erb (1.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-22 15:16:26 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" LIMIT 30 OFFSET 0
+  Rendered users/_user.html.erb (1.6ms)
+  Rendered users/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:16:39 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (4.3ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (2.1ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:16:42 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.3ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (2.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)
+  Rendered shared/_feed.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:16:44 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.3ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (4.1ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:23:28 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.3ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (1.9ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)
+  Rendered shared/_feed.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-22 15:23:30 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered users/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-02-22 15:23:31 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:23:32 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (3.1ms)
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered shared/_micropost_form.html.erb (2.6ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (1.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/games/" for 127.0.0.1 at 2015-02-22 15:23:54 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+Completed 404 Not Found in 15ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/games_controller.rb:8:in `index'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.3ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.3ms)
+
+
+Started GET "/games/1" for 127.0.0.1 at 2015-02-22 15:23:59 +0100
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" IS NULL LIMIT 1[0m
+  Rendered games/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined method `image' for nil:NilClass):
+     7: 
+     8: <p>
+     9:   <strong> Image path</strong>
+    10:   <%=@game.image.inspect %>
+    11: </p>
+    12: 
+    13: <p>
+  app/views/games/show.html.erb:10:in `_app_views_games_show_html_erb___2714425613009014553_69915502906220'
+  app/controllers/games_controller.rb:17:in `show'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (2.6ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (14.5ms)
+  Rendered shared/_error_messages.html.erb (2.0ms)
+  Rendered shared/_micropost_form.html.erb (5.8ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)
+  Rendered shared/_feed.html.erb (1.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (28.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 172ms (Views: 149.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.7ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (47.4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:04 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:24:07 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (4.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (2.4ms)
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered shared/_micropost_form.html.erb (2.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (1.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (13.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 34.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:24:08 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.7ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (4.2ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)
+  Rendered shared/_feed.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:24:08 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (2.4ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.6ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:24:09 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (2.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?  [["follower_id", 6]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (6.7ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.1ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)
+  Rendered shared/_feed.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 31.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 15:24:13 +0100
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?  [["user_id", 6]]
+  Rendered shared/_user_info.html.erb (1.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (1.8ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered shared/_micropost_form.html.erb (1.2ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE (user_id IN (SELECT followed_id FROM relationships
+ WHERE follower_id = 6) OR user_id = 6)[0m
+  Rendered shared/_feed.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-02-22 15:24:13 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-02-22 15:24:14 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" LIMIT 30 OFFSET 0[0m
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-02-22 15:24:15 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 6]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?  [["followed_id", 6]]
+  Rendered shared/_stats.html.erb (4.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  Rendered users/_follow_form.html.erb (0.5ms)
+  [1m[35mMicropost Exists (0.1ms)[0m  SELECT 1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? ORDER BY created_at DESC LIMIT 1  [["user_id", 6]]
+  Rendered users/show.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/games?id=6" for 127.0.0.1 at 2015-02-22 15:24:17 +0100
+Processing by GamesController#index as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" WHERE "games"."user_id" = 6
+  Rendered games/index.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 15:24:17 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.2ms)
+
+
+Started GET "/games/new?id=6" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+Processing by GamesController#new as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  Rendered games/_form.html.erb (209.6ms)
+  Rendered games/new.html.erb within layouts/application (210.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = '406458c76fba3f2fdfe7b9f4448bb733a9f1ec5e' LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 231ms (Views: 229.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/javascripts/jquery-1.4.2.min.js" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery-1.4.2.min.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.6ms)
+
+
+Started GET "/javascripts/defaults.js" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 15:24:19 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'd64ce243f0c5660ae299115d73505b86366ceba5' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'd64ce243f0c5660ae299115d73505b86366ceba5' LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'd64ce243f0c5660ae299115d73505b86366ceba5' LIMIT 1
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 193ms (Views: 160.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/javascripts/all.js" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/all.js"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/gagz/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.1ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered /home/gagz/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (48.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:40 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 20:52:41 +0100
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2015-02-22 20:52:41 +0100

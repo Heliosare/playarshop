@@ -1,0 +1,41 @@
+<%= javascript_include_tag :defaults%>
+<%= javascript_include_tag 'jquery-1.4.2.min.js', 'application'%>
+
+<%= form_for(@game, :html => {:multipart => true}) do |f| %>
+  <% if @game.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@game.errors.count, "error") %> prohibited this game from being saved:</h2>
+
+      <ul>
+      <% @game.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field" style="display: none" >
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id, :value => @user.id %>
+  </div>
+
+    <div class="field">
+    <%= f.label :nam%><br>
+    <%= f.check_box  :nam %>
+    </div>
+    <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :year %><br>
+    <%= f.text_field :year %>
+  </div>
+  <div class="field">
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

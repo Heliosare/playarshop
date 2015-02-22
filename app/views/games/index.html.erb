@@ -1,0 +1,45 @@
+<h1>List of all PlayArGames of <%= @user.name %></h1>
+<%= javascript_include_tag :all%>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th></th>
+      <th>Name</th>
+      <th></th>
+      <th>Description</th>
+      <th></th>
+      <th>Year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @games.each do |game| %>
+      <tr>
+        <td>  <%= image_tag game.image.url(:medium) %> </td>
+        <td></td>
+        <td> <%= game.user_id  %></td>
+        <td></td>
+        <td><%= game.nam %></td>
+        <td></td>
+        <td><%= game.description %></td>
+        <td></td>
+        <td><%= game.year %></td>
+        <td></td>
+        <td><%= link_to 'Show', :action => "show", :id => @user.id, :game_id => game.id %>
+        <td></td>
+        <td><%= link_to 'Edit', edit_game_path(game) %></td>
+        <td></td>
+        <td> <%= button_to 'Destroy', games_destroy_url(:id => @user.id, :game_id => game.id), method: :delete, data: {confirm: "Would you confirm deletion please ?"}%></td>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Game', new_game_path(:id=>@user.id), class: "btn btn-large btn-primary" %>
